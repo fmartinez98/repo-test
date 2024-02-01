@@ -79,10 +79,10 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.qubikaapp"
+    namespace "com.fede.app"
     defaultConfig {
-        applicationId "com.qubikaapp.prd"
-        resValue "string", "build_config_package", "com.qubikaapp"
+        applicationId "com.fede.app.prd"
+        resValue "string", "build_config_package", "com.fede.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         flavorDimensions "default"
@@ -99,17 +99,17 @@ android {
     }
     productFlavors {
         development {
-            applicationId 'com.qubikaapp.dev'
+            applicationId 'com.fede.app.dev'
             minSdkVersion rootProject.ext.minSdkVersion
             targetSdkVersion rootProject.ext.targetSdkVersion
         }
         staging {
-            applicationId 'com.qubikaapp.stg'
+            applicationId 'com.fede.app.stg'
             minSdkVersion rootProject.ext.minSdkVersion
             targetSdkVersion rootProject.ext.targetSdkVersion
         }
         production {
-            applicationId 'com.qubikaapp.prd'
+            applicationId 'com.fede.app.prd'
             minSdkVersion rootProject.ext.minSdkVersion
             targetSdkVersion rootProject.ext.targetSdkVersion
         }
